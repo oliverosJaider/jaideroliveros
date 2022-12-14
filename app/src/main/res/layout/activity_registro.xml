@@ -176,24 +176,21 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="anular"
+            android:onClick="anular"
             android:textSize="25dp" />
 
         <Button
-            android:id="@+id/btmodificar"
-            android:layout_width="wrap_content"
+            android:id="@+id/btregresar"
+            android:layout_width="203dp"
             android:layout_height="60dp"
-            android:layout_weight="1"
-            android:text="modificar"
+            android:text="regresar"
+            android:onClick="regresar"
             android:textSize="25dp" />
+
+
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btregresar"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="10dp"
-        android:text="regresar"
-        android:textSize="25dp" />
+
 
 
 </LinearLayout>
